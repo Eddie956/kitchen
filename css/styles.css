@@ -1,0 +1,44 @@
+.headings {
+  background-image: url(../img/assets/backgrounds/landing.jpg)
+}
+
+.logo {
+  padding:center;
+  padding-top: 15%
+}
+
+h1 { display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.centre {
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+  padding-left:5%;
+}
+
+.row1 {
+  padding-top: 5em;
+}
+
+. head {
+  text-align: center;
+  font-family: sans-serif;
+  padding:5%
+  color: white;
+}
+.happy{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.party{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#breakfast{
+  color: red;
+  background-image: url(../img/assets/foodtop/breakfast.jpg);
+  background-size: cover;
+}
