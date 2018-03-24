@@ -5,7 +5,7 @@
 .logo {
   padding:center;
   padding-top: 15%;
-  image: center;
+  padding-top: center;
 
 }
 
@@ -33,7 +33,7 @@ h1 { display: block;
   color: white;
 }
 .happy{
-  padding-top: 40px;
+  padding-top: 50px;
   text-align: center;
   color:black;
   font-size: 25px;
@@ -67,7 +67,7 @@ h1 { display: block;
   color: #fff;
 }
 #dinner{
-  background-image: url(../img/assets/foodtop/dinner.jpg);
+  background-image: url(../img/assets/foodtop/dinner2.jpg);
   background-size: cover;
   padding:100px;
   font-size: 25px;
@@ -76,6 +76,9 @@ h1 { display: block;
 }
 .row2 {
   padding-top: 25%;
-  box-shadow: 4%;
+  margin: auto;
 
+}
+h2 {
+  text
 }
