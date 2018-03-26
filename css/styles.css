@@ -2,14 +2,22 @@
   background-image: url("../img/assets/backgrounds/landing.jpg")
 
 }
+p {
+  color: black;
+}
+h2 h3 h4 h5 h6 {
+  font-size: 25px;
+  text-align: center;
+  font-style: oblique;
+  color:black;
+}
 
+.left{
+  text-align: left;
+
+}
 .logo {
- margin: 0 auto;
-    width: 25em;
-    text-align:center;
-    height: auto;
-    image-orientation: center;
-  overflow-x: none;
+    
 }
 
 h1 { display: block;
@@ -30,6 +38,7 @@ strong{
 
 .row1 {
   padding-top:1px;
+  width:inherit;
 }
 
 . head {
