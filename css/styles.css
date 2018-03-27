@@ -1,4 +1,7 @@
- @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500i,700,700i,900,900i');
+header{ }
+image: url("..img/assets/logoBig.png");
+image-float: center;
+}
 * {
 	margin: 0px;
 	padding: 0px;
@@ -12,7 +15,7 @@ html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p,  blockqu
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	/* font-size: 100%; */
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -27,7 +30,7 @@ body{
     color: #3b3b3b;
 }
 img{
-	width: 100%;
+	/* width: 100%; */
 	float: left;
 }
 h1{
@@ -106,7 +109,7 @@ header .content{
 	margin: 40px auto;
 }
 .bg{
-	background-image: url(../img/assets/backgrounds/foodsBg.jpg);
+	background-image: url("../img/assets/backgrounds/foodsBg.jpg");
 	padding: 50px;
 }
 .tabs-part .eddie{
@@ -139,7 +142,7 @@ header .content{
 	display: inline-block;
 }
 .form{
-		background: url(../img/assets/backgrounds/subscribe.jpg);
+		background: url("../img/assets/backgrounds/subscribe.jpg");
 		text-align: center;
 		color: #fff;
 		padding: 80px 0px;
@@ -149,7 +152,8 @@ footer{
  padding-top: 10px;
  background-color: #DC3304;
 text-emphasis-color: #040100;
+position: relative;
 }
-.row-img{
+
 
 }
