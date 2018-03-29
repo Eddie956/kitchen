@@ -227,3 +227,7 @@ footer {
   color: #fff;
   text-align: center;
 }
+
+input#email {
+  color: black;
+}
