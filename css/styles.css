@@ -1,48 +1,62 @@
-header{ }
-image: url("..img/assets/logoBig.png");
-image-float: center;
-}
-* {
-	margin: 0px;
-	padding: 0px;
-	outline:none;
-}
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p,  blockquote, pre,a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	/* font-size: 100%; */
-	font: inherit;
-	vertical-align: baseline;
-}
-body{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-	margin: 0;
-    padding: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-    font-size: 14px;
-    color: #3b3b3b;
-}
-img{
-	/* width: 100%; */
-	float: left;
-}
-h1{
-	font-size: 35px;
-	font-weight: 700;
-}
-h2{
-	font-size: 20px;
-	font-weight: 700;
+header {
+  image: url("..img/assets/logoBig.png");
+  position: center;
 }
 
-h3{
+.logo {
+  padding-left: 70px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, h7, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* font-size: 100%; */
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-size: 14px;
+  color: #3b3b3b;
+}
+
+img {
+  /* width: 100%; */
+  float: left;
+}
+
+h1 {
+  font-size: 35em;
+  font-weight: 700;
+  padding-right: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h3 {
   font-size: 20px;
   font-weight: 700;
   font-style: italic;
@@ -50,110 +64,166 @@ h3{
   color: #fff;
 }
 
-.btn{
-	background: transparent;;
-	border: 1px solid #f08264;
-	color: #f08264;
-	margin-top: 15px;
+.btn {
+  background: transparent;
+  ;
+  border: 1px solid #f08264;
+  color: #f08264;
+  margin-top: 15px;
 }
-strong{
-	font-weight: 900;
+
+strong {
+  font-weight: 900;
 }
-header{
-	width: 100%;
-	float: left;
-	position: relative;
+
+header {
+  width: 100%;
+  float: left;
+  position: relative;
+  font-size: 2em;
 }
-header .content{
-    position: absolute;
-    top: 2%;
-    text-align: center;
-    width: 100%;
-    color: #fff;
+
+header .content {
+  position: absolute;
+  top: 2%;
+  text-align: center;
+  width: 100%;
+  color: #fff;
 }
+
 /*header img{
 	width: auto;
 }*/
-.happy-hour .col-md-3{
-	padding: 0px;
-}
-.happy-hour .col-md-3 p{
-	position: absolute;
-	text-align: center;
-	top: 0px;
-	z-index: 100000;
-	width: 100%;
-	color: #fff;
-	top: 50%;
-	font-style: italic;
-	font-size: 25px;
-}
-.happy-hour .col-md-3 .para1{
-	background: #cfcece;
-	padding: 33px;
-	font-style: italic;
-	font-size: 30px;
-	text-align: center;
-}
-.happy-hour .col-md-3 .para2{
-	background: #f08264;;
-	padding: 33px;
-	color:#fff;
-	font-style: italic;
-	font-size: 25px;
-	text-align: center;
-}
-.eddie{
-	width: 80%;
-	float: none;
-	margin: 40px auto;
-}
-.bg{
-	background-image: url("../img/assets/backgrounds/foodsBg.jpg");
-	padding: 50px;
-}
-.tabs-part .eddie{
-	background:#fff;
-	padding: 30px;
-}
-.nav-tabs > li > a{
-	background: #cfcece;
-	padding: 20px 40px;
-	border-radius: 0;
-}
-.nav-tabs > li{
-	width: 25%;
-}
-.nav-tabs{
-	margin-bottom: 10px;
-}
-.testimonials .row{
-	border: 2px solid red;
-	text-align: center;
-	padding: 30px;
-}
-.testimonials h2{
-	color: #f08264;;
-}
-.testimonials .col-md-8{
-	border-right: 2px solid #cecece;
-}
-.testimonials ul li{
-	display: inline-block;
-}
-.form{
-		background: url("../img/assets/backgrounds/subscribe.jpg");
-		text-align: center;
-		color: #fff;
-		padding: 80px 0px;
-}
-footer{
- text-align: center;
- padding-top: 10px;
- background-color: #DC3304;
-text-emphasis-color: #040100;
-position: relative;
+
+.happy-hour .col-md-3 {
+  padding: 0px;
 }
 
+.happy-hour .col-md-3 p {
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  z-index: 100000;
+  width: 100%;
+  color: #fff;
+  top: 50%;
+  font-style: italic;
+  font-size: 25px;
+}
 
+.happy-hour .col-md-3 .para1 {
+  background: #cfcece;
+  padding: 33px;
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+}
+
+.happy-hour .col-md-3 .para2 {
+  background: #f08264;
+  ;
+  padding: 33px;
+  color: #fff;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}
+
+.eddie {
+  width: 80%;
+  float: none;
+  margin: 40px auto;
+}
+
+.bg {
+  background-image: url("../img/assets/backgrounds/foodsBg.jpg");
+  padding: 50px;
+}
+
+.tabs-part .eddie {
+  background: #fff;
+  padding: 30px;
+}
+
+.nav-tabs>li>a {
+  background: #cfcece;
+  padding: 20px 40px;
+  border-radius: 0;
+}
+
+.nav-tabs>li {
+  width: 25%;
+}
+
+.nav-tabs {
+  margin-bottom: 10px;
+}
+
+.testimonials .row {
+  border: 2px solid red;
+  text-align: center;
+  padding: 30px;
+}
+
+.testimonials h2 {
+  color: #f08264;
+  ;
+}
+
+.testimonials .col-md-8 {
+  border-right: 2px solid #cecece;
+}
+
+.testimonials ul li {
+  display: inline-block;
+}
+
+.form {
+  background: url("../img/assets/backgrounds/subscribe.jpg");
+  text-align: center;
+  color: #fff;
+  padding: 80px 0px;
+}
+
+#menu {
+  padding-top: 10px;
+  padding-right: 700px;
+  color: #fff;
+  font-size: 2em;
+}
+
+#are {
+  padding-top: 0px;
+  padding-right: 550px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+#fb {
+  padding-left: 5px;
+  position: relative;
+  padding-right: 1px;
+  width: 40px;
+  height: auto;
+  background-image: url("..");
+  background-image: url("..img/assets/footerlogos/twitter.png");
+  background-image: url("..img/assets/footerlogos/pinterest");
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+  background-color: #DC3304;
+  text-emphasis-color: #040100;
+  position: relative;
+  padding-left: 600px;
+  padding-top: 50px;
+}
+
+.row-p {
+  padding-top: 10px;
+  padding-right: 500px;
+  color: #fff;
+  text-align: center;
 }
